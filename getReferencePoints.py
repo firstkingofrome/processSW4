@@ -11,17 +11,8 @@ import numpy as np
 import re
 import pandas
 
-sw4_i_start = 8000
-sw4_i_end   = 8200
-sw4_j_start = 18000
-sw4_j_end   = 18200
-sw4_k_start = 0
-sw4_k_end   = 200
-
-ESSI_SURFACE = 200
-
-sw4essiout_filename =  "testContainer.essi"
-pointsRequested = "comparisionLocation.csv"
+sw4essiout_filename =  "Location5.cycle=00000.essi"
+pointsRequested = "outputLocations.csv"
 pointsOutput = "outputPoints"
 #load the csv file
 points = pandas.read_csv(pointsRequested)
