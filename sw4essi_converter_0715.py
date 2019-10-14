@@ -71,14 +71,15 @@ def main(args):
     y0 = sw4essiout['ESSI xyz origin'][1]
     z0 = sw4essiout['ESSI xyz origin'][2]
     t0 = sw4essiout['time start'][0]
-    npts = sw4essiout['cycle start, end'][1]
-    dt = sw4essiout['timestep'][0]
-    t1 = dt*(npts-1)
+    """
     print ('grid spacing, h: ', h)
     print ('ESSI origin x0, y0, z0: ', x0, y0, z0)
     print('timing, t0, dt, npts, t1: ', t0, round(dt,6), npts, round(t1,6) )
     print('Shape of HDF5 data: ', sw4essiout['vel_0 ijk layout'].shape)
-
+    """
+    npts = sw4essiout['vel_0 ijk layout'].shape[0]
+    dt = sw4essiout['timestep'][0]
+    t1 = dt*(npts-1)
     nt = sw4essiout['vel_0 ijk layout'].shape[0]
 
     time = np.linspace(t0, t1, npts+1)
