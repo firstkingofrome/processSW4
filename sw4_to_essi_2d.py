@@ -27,6 +27,7 @@ import datetime
 import pandas as pd
 import itertools 
 import scipy
+import os
 from scipy import integrate
 
 def dframeToDict(dFrame):

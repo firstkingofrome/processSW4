@@ -1,0 +1,704 @@
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Soil1, MaterialNo:= 31}Starts
+//*************************************************************************************************************************
+
+add element # 1 type 8NodeBrick with nodes (59, 348, 365, 62, 29, 339, 330, 28) use material # 31; 
+add element # 2 type 8NodeBrick with nodes (348, 349, 364, 365, 339, 340, 331, 330) use material # 31; 
+add element # 3 type 8NodeBrick with nodes (349, 350, 363, 364, 340, 341, 332, 331) use material # 31; 
+add element # 4 type 8NodeBrick with nodes (350, 351, 362, 363, 341, 342, 333, 332) use material # 31; 
+add element # 5 type 8NodeBrick with nodes (351, 352, 361, 362, 342, 343, 334, 333) use material # 31; 
+add element # 6 type 8NodeBrick with nodes (352, 353, 360, 361, 343, 344, 335, 334) use material # 31; 
+add element # 7 type 8NodeBrick with nodes (353, 354, 359, 360, 344, 345, 336, 335) use material # 31; 
+add element # 8 type 8NodeBrick with nodes (354, 355, 358, 359, 345, 346, 337, 336) use material # 31; 
+add element # 9 type 8NodeBrick with nodes (355, 356, 357, 358, 346, 347, 338, 337) use material # 31; 
+add element # 10 type 8NodeBrick with nodes (356, 60, 61, 357, 347, 34, 33, 338) use material # 31; 
+add element # 11 type 8NodeBrick with nodes (538, 521, 117, 120, 330, 339, 29, 28) use material # 31; 
+add element # 12 type 8NodeBrick with nodes (537, 522, 521, 538, 331, 340, 339, 330) use material # 31; 
+add element # 13 type 8NodeBrick with nodes (536, 523, 522, 537, 332, 341, 340, 331) use material # 31; 
+add element # 14 type 8NodeBrick with nodes (535, 524, 523, 536, 333, 342, 341, 332) use material # 31; 
+add element # 15 type 8NodeBrick with nodes (534, 525, 524, 535, 334, 343, 342, 333) use material # 31; 
+add element # 16 type 8NodeBrick with nodes (533, 526, 525, 534, 335, 344, 343, 334) use material # 31; 
+add element # 17 type 8NodeBrick with nodes (532, 527, 526, 533, 336, 345, 344, 335) use material # 31; 
+add element # 18 type 8NodeBrick with nodes (531, 528, 527, 532, 337, 346, 345, 336) use material # 31; 
+add element # 19 type 8NodeBrick with nodes (530, 529, 528, 531, 338, 347, 346, 337) use material # 31; 
+add element # 20 type 8NodeBrick with nodes (119, 118, 529, 530, 33, 34, 347, 338) use material # 31; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Soil1, MaterialNo:= 31}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Soil2, MaterialNo:= 32}Starts
+//*************************************************************************************************************************
+
+add element # 21 type 8NodeBrick with nodes (62, 365, 748, 376, 28, 330, 694, 210) use material # 32; 
+add element # 22 type 8NodeBrick with nodes (365, 364, 749, 748, 330, 331, 695, 694) use material # 32; 
+add element # 23 type 8NodeBrick with nodes (364, 363, 750, 749, 331, 332, 696, 695) use material # 32; 
+add element # 24 type 8NodeBrick with nodes (363, 362, 751, 750, 332, 333, 697, 696) use material # 32; 
+add element # 25 type 8NodeBrick with nodes (362, 361, 752, 751, 333, 334, 698, 697) use material # 32; 
+add element # 26 type 8NodeBrick with nodes (361, 360, 753, 752, 334, 335, 699, 698) use material # 32; 
+add element # 27 type 8NodeBrick with nodes (360, 359, 754, 753, 335, 336, 700, 699) use material # 32; 
+add element # 28 type 8NodeBrick with nodes (359, 358, 755, 754, 336, 337, 701, 700) use material # 32; 
+add element # 29 type 8NodeBrick with nodes (358, 357, 756, 755, 337, 338, 702, 701) use material # 32; 
+add element # 30 type 8NodeBrick with nodes (357, 61, 366, 756, 338, 33, 216, 702) use material # 32; 
+add element # 31 type 8NodeBrick with nodes (376, 748, 375, 64, 210, 694, 321, 27) use material # 32; 
+add element # 32 type 8NodeBrick with nodes (748, 749, 374, 375, 694, 695, 322, 321) use material # 32; 
+add element # 33 type 8NodeBrick with nodes (749, 750, 373, 374, 695, 696, 323, 322) use material # 32; 
+add element # 34 type 8NodeBrick with nodes (750, 751, 372, 373, 696, 697, 324, 323) use material # 32; 
+add element # 35 type 8NodeBrick with nodes (751, 752, 371, 372, 697, 698, 325, 324) use material # 32; 
+add element # 36 type 8NodeBrick with nodes (752, 753, 370, 371, 698, 699, 326, 325) use material # 32; 
+add element # 37 type 8NodeBrick with nodes (753, 754, 369, 370, 699, 700, 327, 326) use material # 32; 
+add element # 38 type 8NodeBrick with nodes (754, 755, 368, 369, 700, 701, 328, 327) use material # 32; 
+add element # 39 type 8NodeBrick with nodes (755, 756, 367, 368, 701, 702, 329, 328) use material # 32; 
+add element # 40 type 8NodeBrick with nodes (756, 366, 63, 367, 702, 216, 32, 329) use material # 32; 
+add element # 41 type 8NodeBrick with nodes (802, 538, 120, 549, 694, 330, 28, 210) use material # 32; 
+add element # 42 type 8NodeBrick with nodes (803, 537, 538, 802, 695, 331, 330, 694) use material # 32; 
+add element # 43 type 8NodeBrick with nodes (804, 536, 537, 803, 696, 332, 331, 695) use material # 32; 
+add element # 44 type 8NodeBrick with nodes (805, 535, 536, 804, 697, 333, 332, 696) use material # 32; 
+add element # 45 type 8NodeBrick with nodes (806, 534, 535, 805, 698, 334, 333, 697) use material # 32; 
+add element # 46 type 8NodeBrick with nodes (807, 533, 534, 806, 699, 335, 334, 698) use material # 32; 
+add element # 47 type 8NodeBrick with nodes (808, 532, 533, 807, 700, 336, 335, 699) use material # 32; 
+add element # 48 type 8NodeBrick with nodes (809, 531, 532, 808, 701, 337, 336, 700) use material # 32; 
+add element # 49 type 8NodeBrick with nodes (810, 530, 531, 809, 702, 338, 337, 701) use material # 32; 
+add element # 50 type 8NodeBrick with nodes (539, 119, 530, 810, 216, 33, 338, 702) use material # 32; 
+add element # 51 type 8NodeBrick with nodes (548, 802, 549, 122, 321, 694, 210, 27) use material # 32; 
+add element # 52 type 8NodeBrick with nodes (547, 803, 802, 548, 322, 695, 694, 321) use material # 32; 
+add element # 53 type 8NodeBrick with nodes (546, 804, 803, 547, 323, 696, 695, 322) use material # 32; 
+add element # 54 type 8NodeBrick with nodes (545, 805, 804, 546, 324, 697, 696, 323) use material # 32; 
+add element # 55 type 8NodeBrick with nodes (544, 806, 805, 545, 325, 698, 697, 324) use material # 32; 
+add element # 56 type 8NodeBrick with nodes (543, 807, 806, 544, 326, 699, 698, 325) use material # 32; 
+add element # 57 type 8NodeBrick with nodes (542, 808, 807, 543, 327, 700, 699, 326) use material # 32; 
+add element # 58 type 8NodeBrick with nodes (541, 809, 808, 542, 328, 701, 700, 327) use material # 32; 
+add element # 59 type 8NodeBrick with nodes (540, 810, 809, 541, 329, 702, 701, 328) use material # 32; 
+add element # 60 type 8NodeBrick with nodes (121, 539, 810, 540, 32, 216, 702, 329) use material # 32; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Soil2, MaterialNo:= 32}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Soil3, MaterialNo:= 33}Starts
+//*************************************************************************************************************************
+
+add element # 61 type 8NodeBrick with nodes (64, 375, 757, 395, 27, 321, 703, 209) use material # 33; 
+add element # 62 type 8NodeBrick with nodes (375, 374, 758, 757, 321, 322, 704, 703) use material # 33; 
+add element # 63 type 8NodeBrick with nodes (374, 373, 759, 758, 322, 323, 705, 704) use material # 33; 
+add element # 64 type 8NodeBrick with nodes (373, 372, 760, 759, 323, 324, 706, 705) use material # 33; 
+add element # 65 type 8NodeBrick with nodes (372, 371, 761, 760, 324, 325, 707, 706) use material # 33; 
+add element # 66 type 8NodeBrick with nodes (371, 370, 762, 761, 325, 326, 708, 707) use material # 33; 
+add element # 67 type 8NodeBrick with nodes (370, 369, 763, 762, 326, 327, 709, 708) use material # 33; 
+add element # 68 type 8NodeBrick with nodes (369, 368, 764, 763, 327, 328, 710, 709) use material # 33; 
+add element # 69 type 8NodeBrick with nodes (368, 367, 765, 764, 328, 329, 711, 710) use material # 33; 
+add element # 70 type 8NodeBrick with nodes (367, 63, 377, 765, 329, 32, 215, 711) use material # 33; 
+add element # 71 type 8NodeBrick with nodes (395, 757, 766, 394, 209, 703, 712, 208) use material # 33; 
+add element # 72 type 8NodeBrick with nodes (757, 758, 767, 766, 703, 704, 713, 712) use material # 33; 
+add element # 73 type 8NodeBrick with nodes (758, 759, 768, 767, 704, 705, 714, 713) use material # 33; 
+add element # 74 type 8NodeBrick with nodes (759, 760, 769, 768, 705, 706, 715, 714) use material # 33; 
+add element # 75 type 8NodeBrick with nodes (760, 761, 770, 769, 706, 707, 716, 715) use material # 33; 
+add element # 76 type 8NodeBrick with nodes (761, 762, 771, 770, 707, 708, 717, 716) use material # 33; 
+add element # 77 type 8NodeBrick with nodes (762, 763, 772, 771, 708, 709, 718, 717) use material # 33; 
+add element # 78 type 8NodeBrick with nodes (763, 764, 773, 772, 709, 710, 719, 718) use material # 33; 
+add element # 79 type 8NodeBrick with nodes (764, 765, 774, 773, 710, 711, 720, 719) use material # 33; 
+add element # 80 type 8NodeBrick with nodes (765, 377, 378, 774, 711, 215, 214, 720) use material # 33; 
+add element # 81 type 8NodeBrick with nodes (394, 766, 775, 393, 208, 712, 721, 207) use material # 33; 
+add element # 82 type 8NodeBrick with nodes (766, 767, 776, 775, 712, 713, 722, 721) use material # 33; 
+add element # 83 type 8NodeBrick with nodes (767, 768, 777, 776, 713, 714, 723, 722) use material # 33; 
+add element # 84 type 8NodeBrick with nodes (768, 769, 778, 777, 714, 715, 724, 723) use material # 33; 
+add element # 85 type 8NodeBrick with nodes (769, 770, 779, 778, 715, 716, 725, 724) use material # 33; 
+add element # 86 type 8NodeBrick with nodes (770, 771, 780, 779, 716, 717, 726, 725) use material # 33; 
+add element # 87 type 8NodeBrick with nodes (771, 772, 781, 780, 717, 718, 727, 726) use material # 33; 
+add element # 88 type 8NodeBrick with nodes (772, 773, 782, 781, 718, 719, 728, 727) use material # 33; 
+add element # 89 type 8NodeBrick with nodes (773, 774, 783, 782, 719, 720, 729, 728) use material # 33; 
+add element # 90 type 8NodeBrick with nodes (774, 378, 379, 783, 720, 214, 213, 729) use material # 33; 
+add element # 91 type 8NodeBrick with nodes (393, 775, 784, 392, 207, 721, 730, 206) use material # 33; 
+add element # 92 type 8NodeBrick with nodes (775, 776, 785, 784, 721, 722, 731, 730) use material # 33; 
+add element # 93 type 8NodeBrick with nodes (776, 777, 786, 785, 722, 723, 732, 731) use material # 33; 
+add element # 94 type 8NodeBrick with nodes (777, 778, 787, 786, 723, 724, 733, 732) use material # 33; 
+add element # 95 type 8NodeBrick with nodes (778, 779, 788, 787, 724, 725, 734, 733) use material # 33; 
+add element # 96 type 8NodeBrick with nodes (779, 780, 789, 788, 725, 726, 735, 734) use material # 33; 
+add element # 97 type 8NodeBrick with nodes (780, 781, 790, 789, 726, 727, 736, 735) use material # 33; 
+add element # 98 type 8NodeBrick with nodes (781, 782, 791, 790, 727, 728, 737, 736) use material # 33; 
+add element # 99 type 8NodeBrick with nodes (782, 783, 792, 791, 728, 729, 738, 737) use material # 33; 
+add element # 100 type 8NodeBrick with nodes (783, 379, 380, 792, 729, 213, 212, 738) use material # 33; 
+add element # 101 type 8NodeBrick with nodes (392, 784, 793, 391, 206, 730, 739, 205) use material # 33; 
+add element # 102 type 8NodeBrick with nodes (784, 785, 794, 793, 730, 731, 740, 739) use material # 33; 
+add element # 103 type 8NodeBrick with nodes (785, 786, 795, 794, 731, 732, 741, 740) use material # 33; 
+add element # 104 type 8NodeBrick with nodes (786, 787, 796, 795, 732, 733, 742, 741) use material # 33; 
+add element # 105 type 8NodeBrick with nodes (787, 788, 797, 796, 733, 734, 743, 742) use material # 33; 
+add element # 106 type 8NodeBrick with nodes (788, 789, 798, 797, 734, 735, 744, 743) use material # 33; 
+add element # 107 type 8NodeBrick with nodes (789, 790, 799, 798, 735, 736, 745, 744) use material # 33; 
+add element # 108 type 8NodeBrick with nodes (790, 791, 800, 799, 736, 737, 746, 745) use material # 33; 
+add element # 109 type 8NodeBrick with nodes (791, 792, 801, 800, 737, 738, 747, 746) use material # 33; 
+add element # 110 type 8NodeBrick with nodes (792, 380, 381, 801, 738, 212, 211, 747) use material # 33; 
+add element # 111 type 8NodeBrick with nodes (391, 793, 390, 66, 205, 739, 312, 26) use material # 33; 
+add element # 112 type 8NodeBrick with nodes (793, 794, 389, 390, 739, 740, 313, 312) use material # 33; 
+add element # 113 type 8NodeBrick with nodes (794, 795, 388, 389, 740, 741, 314, 313) use material # 33; 
+add element # 114 type 8NodeBrick with nodes (795, 796, 387, 388, 741, 742, 315, 314) use material # 33; 
+add element # 115 type 8NodeBrick with nodes (796, 797, 386, 387, 742, 743, 316, 315) use material # 33; 
+add element # 116 type 8NodeBrick with nodes (797, 798, 385, 386, 743, 744, 317, 316) use material # 33; 
+add element # 117 type 8NodeBrick with nodes (798, 799, 384, 385, 744, 745, 318, 317) use material # 33; 
+add element # 118 type 8NodeBrick with nodes (799, 800, 383, 384, 745, 746, 319, 318) use material # 33; 
+add element # 119 type 8NodeBrick with nodes (800, 801, 382, 383, 746, 747, 320, 319) use material # 33; 
+add element # 120 type 8NodeBrick with nodes (801, 381, 65, 382, 747, 211, 31, 320) use material # 33; 
+add element # 121 type 8NodeBrick with nodes (811, 548, 122, 568, 703, 321, 27, 209) use material # 33; 
+add element # 122 type 8NodeBrick with nodes (812, 547, 548, 811, 704, 322, 321, 703) use material # 33; 
+add element # 123 type 8NodeBrick with nodes (813, 546, 547, 812, 705, 323, 322, 704) use material # 33; 
+add element # 124 type 8NodeBrick with nodes (814, 545, 546, 813, 706, 324, 323, 705) use material # 33; 
+add element # 125 type 8NodeBrick with nodes (815, 544, 545, 814, 707, 325, 324, 706) use material # 33; 
+add element # 126 type 8NodeBrick with nodes (816, 543, 544, 815, 708, 326, 325, 707) use material # 33; 
+add element # 127 type 8NodeBrick with nodes (817, 542, 543, 816, 709, 327, 326, 708) use material # 33; 
+add element # 128 type 8NodeBrick with nodes (818, 541, 542, 817, 710, 328, 327, 709) use material # 33; 
+add element # 129 type 8NodeBrick with nodes (819, 540, 541, 818, 711, 329, 328, 710) use material # 33; 
+add element # 130 type 8NodeBrick with nodes (550, 121, 540, 819, 215, 32, 329, 711) use material # 33; 
+add element # 131 type 8NodeBrick with nodes (820, 811, 568, 567, 712, 703, 209, 208) use material # 33; 
+add element # 132 type 8NodeBrick with nodes (821, 812, 811, 820, 713, 704, 703, 712) use material # 33; 
+add element # 133 type 8NodeBrick with nodes (822, 813, 812, 821, 714, 705, 704, 713) use material # 33; 
+add element # 134 type 8NodeBrick with nodes (823, 814, 813, 822, 715, 706, 705, 714) use material # 33; 
+add element # 135 type 8NodeBrick with nodes (824, 815, 814, 823, 716, 707, 706, 715) use material # 33; 
+add element # 136 type 8NodeBrick with nodes (825, 816, 815, 824, 717, 708, 707, 716) use material # 33; 
+add element # 137 type 8NodeBrick with nodes (826, 817, 816, 825, 718, 709, 708, 717) use material # 33; 
+add element # 138 type 8NodeBrick with nodes (827, 818, 817, 826, 719, 710, 709, 718) use material # 33; 
+add element # 139 type 8NodeBrick with nodes (828, 819, 818, 827, 720, 711, 710, 719) use material # 33; 
+add element # 140 type 8NodeBrick with nodes (551, 550, 819, 828, 214, 215, 711, 720) use material # 33; 
+add element # 141 type 8NodeBrick with nodes (829, 820, 567, 566, 721, 712, 208, 207) use material # 33; 
+add element # 142 type 8NodeBrick with nodes (830, 821, 820, 829, 722, 713, 712, 721) use material # 33; 
+add element # 143 type 8NodeBrick with nodes (831, 822, 821, 830, 723, 714, 713, 722) use material # 33; 
+add element # 144 type 8NodeBrick with nodes (832, 823, 822, 831, 724, 715, 714, 723) use material # 33; 
+add element # 145 type 8NodeBrick with nodes (833, 824, 823, 832, 725, 716, 715, 724) use material # 33; 
+add element # 146 type 8NodeBrick with nodes (834, 825, 824, 833, 726, 717, 716, 725) use material # 33; 
+add element # 147 type 8NodeBrick with nodes (835, 826, 825, 834, 727, 718, 717, 726) use material # 33; 
+add element # 148 type 8NodeBrick with nodes (836, 827, 826, 835, 728, 719, 718, 727) use material # 33; 
+add element # 149 type 8NodeBrick with nodes (837, 828, 827, 836, 729, 720, 719, 728) use material # 33; 
+add element # 150 type 8NodeBrick with nodes (552, 551, 828, 837, 213, 214, 720, 729) use material # 33; 
+add element # 151 type 8NodeBrick with nodes (838, 829, 566, 565, 730, 721, 207, 206) use material # 33; 
+add element # 152 type 8NodeBrick with nodes (839, 830, 829, 838, 731, 722, 721, 730) use material # 33; 
+add element # 153 type 8NodeBrick with nodes (840, 831, 830, 839, 732, 723, 722, 731) use material # 33; 
+add element # 154 type 8NodeBrick with nodes (841, 832, 831, 840, 733, 724, 723, 732) use material # 33; 
+add element # 155 type 8NodeBrick with nodes (842, 833, 832, 841, 734, 725, 724, 733) use material # 33; 
+add element # 156 type 8NodeBrick with nodes (843, 834, 833, 842, 735, 726, 725, 734) use material # 33; 
+add element # 157 type 8NodeBrick with nodes (844, 835, 834, 843, 736, 727, 726, 735) use material # 33; 
+add element # 158 type 8NodeBrick with nodes (845, 836, 835, 844, 737, 728, 727, 736) use material # 33; 
+add element # 159 type 8NodeBrick with nodes (846, 837, 836, 845, 738, 729, 728, 737) use material # 33; 
+add element # 160 type 8NodeBrick with nodes (553, 552, 837, 846, 212, 213, 729, 738) use material # 33; 
+add element # 161 type 8NodeBrick with nodes (847, 838, 565, 564, 739, 730, 206, 205) use material # 33; 
+add element # 162 type 8NodeBrick with nodes (848, 839, 838, 847, 740, 731, 730, 739) use material # 33; 
+add element # 163 type 8NodeBrick with nodes (849, 840, 839, 848, 741, 732, 731, 740) use material # 33; 
+add element # 164 type 8NodeBrick with nodes (850, 841, 840, 849, 742, 733, 732, 741) use material # 33; 
+add element # 165 type 8NodeBrick with nodes (851, 842, 841, 850, 743, 734, 733, 742) use material # 33; 
+add element # 166 type 8NodeBrick with nodes (852, 843, 842, 851, 744, 735, 734, 743) use material # 33; 
+add element # 167 type 8NodeBrick with nodes (853, 844, 843, 852, 745, 736, 735, 744) use material # 33; 
+add element # 168 type 8NodeBrick with nodes (854, 845, 844, 853, 746, 737, 736, 745) use material # 33; 
+add element # 169 type 8NodeBrick with nodes (855, 846, 845, 854, 747, 738, 737, 746) use material # 33; 
+add element # 170 type 8NodeBrick with nodes (554, 553, 846, 855, 211, 212, 738, 747) use material # 33; 
+add element # 171 type 8NodeBrick with nodes (563, 847, 564, 124, 312, 739, 205, 26) use material # 33; 
+add element # 172 type 8NodeBrick with nodes (562, 848, 847, 563, 313, 740, 739, 312) use material # 33; 
+add element # 173 type 8NodeBrick with nodes (561, 849, 848, 562, 314, 741, 740, 313) use material # 33; 
+add element # 174 type 8NodeBrick with nodes (560, 850, 849, 561, 315, 742, 741, 314) use material # 33; 
+add element # 175 type 8NodeBrick with nodes (559, 851, 850, 560, 316, 743, 742, 315) use material # 33; 
+add element # 176 type 8NodeBrick with nodes (558, 852, 851, 559, 317, 744, 743, 316) use material # 33; 
+add element # 177 type 8NodeBrick with nodes (557, 853, 852, 558, 318, 745, 744, 317) use material # 33; 
+add element # 178 type 8NodeBrick with nodes (556, 854, 853, 557, 319, 746, 745, 318) use material # 33; 
+add element # 179 type 8NodeBrick with nodes (555, 855, 854, 556, 320, 747, 746, 319) use material # 33; 
+add element # 180 type 8NodeBrick with nodes (123, 554, 855, 555, 31, 211, 747, 320) use material # 33; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Soil3, MaterialNo:= 33}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Soil4, MaterialNo:= 34}Starts
+//*************************************************************************************************************************
+
+add element # 181 type 8NodeBrick with nodes (66, 390, 404, 68, 26, 312, 303, 25) use material # 34; 
+add element # 182 type 8NodeBrick with nodes (390, 389, 403, 404, 312, 313, 304, 303) use material # 34; 
+add element # 183 type 8NodeBrick with nodes (389, 388, 402, 403, 313, 314, 305, 304) use material # 34; 
+add element # 184 type 8NodeBrick with nodes (388, 387, 401, 402, 314, 315, 306, 305) use material # 34; 
+add element # 185 type 8NodeBrick with nodes (387, 386, 400, 401, 315, 316, 307, 306) use material # 34; 
+add element # 186 type 8NodeBrick with nodes (386, 385, 399, 400, 316, 317, 308, 307) use material # 34; 
+add element # 187 type 8NodeBrick with nodes (385, 384, 398, 399, 317, 318, 309, 308) use material # 34; 
+add element # 188 type 8NodeBrick with nodes (384, 383, 397, 398, 318, 319, 310, 309) use material # 34; 
+add element # 189 type 8NodeBrick with nodes (383, 382, 396, 397, 319, 320, 311, 310) use material # 34; 
+add element # 190 type 8NodeBrick with nodes (382, 65, 67, 396, 320, 31, 30, 311) use material # 34; 
+add element # 191 type 8NodeBrick with nodes (577, 563, 124, 126, 303, 312, 26, 25) use material # 34; 
+add element # 192 type 8NodeBrick with nodes (576, 562, 563, 577, 304, 313, 312, 303) use material # 34; 
+add element # 193 type 8NodeBrick with nodes (575, 561, 562, 576, 305, 314, 313, 304) use material # 34; 
+add element # 194 type 8NodeBrick with nodes (574, 560, 561, 575, 306, 315, 314, 305) use material # 34; 
+add element # 195 type 8NodeBrick with nodes (573, 559, 560, 574, 307, 316, 315, 306) use material # 34; 
+add element # 196 type 8NodeBrick with nodes (572, 558, 559, 573, 308, 317, 316, 307) use material # 34; 
+add element # 197 type 8NodeBrick with nodes (571, 557, 558, 572, 309, 318, 317, 308) use material # 34; 
+add element # 198 type 8NodeBrick with nodes (570, 556, 557, 571, 310, 319, 318, 309) use material # 34; 
+add element # 199 type 8NodeBrick with nodes (569, 555, 556, 570, 311, 320, 319, 310) use material # 34; 
+add element # 200 type 8NodeBrick with nodes (125, 123, 555, 569, 30, 31, 320, 311) use material # 34; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Soil4, MaterialNo:= 34}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#DRM1, MaterialNo:= 31}Starts
+//*************************************************************************************************************************
+
+add element # 201 type 8NodeBrick with nodes (69, 59, 62, 70, 24, 29, 28, 23) use material # 31; 
+add element # 202 type 8NodeBrick with nodes (61, 60, 71, 72, 33, 34, 40, 39) use material # 31; 
+add element # 203 type 8NodeBrick with nodes (120, 117, 127, 128, 28, 29, 24, 23) use material # 31; 
+add element # 204 type 8NodeBrick with nodes (129, 118, 119, 130, 40, 34, 33, 39) use material # 31; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#DRM1, MaterialNo:= 31}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#DRM2, MaterialNo:= 32}Starts
+//*************************************************************************************************************************
+
+add element # 205 type 8NodeBrick with nodes (70, 62, 376, 405, 23, 28, 210, 204) use material # 32; 
+add element # 206 type 8NodeBrick with nodes (405, 376, 64, 73, 204, 210, 27, 22) use material # 32; 
+add element # 207 type 8NodeBrick with nodes (63, 366, 406, 74, 32, 216, 222, 38) use material # 32; 
+add element # 208 type 8NodeBrick with nodes (366, 61, 72, 406, 216, 33, 39, 222) use material # 32; 
+add element # 209 type 8NodeBrick with nodes (549, 120, 128, 578, 210, 28, 23, 204) use material # 32; 
+add element # 210 type 8NodeBrick with nodes (122, 549, 578, 131, 27, 210, 204, 22) use material # 32; 
+add element # 211 type 8NodeBrick with nodes (579, 539, 121, 132, 222, 216, 32, 38) use material # 32; 
+add element # 212 type 8NodeBrick with nodes (130, 119, 539, 579, 39, 33, 216, 222) use material # 32; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#DRM2, MaterialNo:= 32}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#DRM3, MaterialNo:= 33}Starts
+//*************************************************************************************************************************
+
+add element # 213 type 8NodeBrick with nodes (73, 64, 395, 411, 22, 27, 209, 203) use material # 33; 
+add element # 214 type 8NodeBrick with nodes (411, 395, 394, 410, 203, 209, 208, 202) use material # 33; 
+add element # 215 type 8NodeBrick with nodes (410, 394, 393, 409, 202, 208, 207, 201) use material # 33; 
+add element # 216 type 8NodeBrick with nodes (409, 393, 392, 408, 201, 207, 206, 200) use material # 33; 
+add element # 217 type 8NodeBrick with nodes (408, 392, 391, 407, 200, 206, 205, 199) use material # 33; 
+add element # 218 type 8NodeBrick with nodes (407, 391, 66, 75, 199, 205, 26, 21) use material # 33; 
+add element # 219 type 8NodeBrick with nodes (65, 381, 416, 76, 31, 211, 217, 37) use material # 33; 
+add element # 220 type 8NodeBrick with nodes (381, 380, 415, 416, 211, 212, 218, 217) use material # 33; 
+add element # 221 type 8NodeBrick with nodes (380, 379, 414, 415, 212, 213, 219, 218) use material # 33; 
+add element # 222 type 8NodeBrick with nodes (379, 378, 413, 414, 213, 214, 220, 219) use material # 33; 
+add element # 223 type 8NodeBrick with nodes (378, 377, 412, 413, 214, 215, 221, 220) use material # 33; 
+add element # 224 type 8NodeBrick with nodes (377, 63, 74, 412, 215, 32, 38, 221) use material # 33; 
+add element # 225 type 8NodeBrick with nodes (568, 122, 131, 584, 209, 27, 22, 203) use material # 33; 
+add element # 226 type 8NodeBrick with nodes (567, 568, 584, 583, 208, 209, 203, 202) use material # 33; 
+add element # 227 type 8NodeBrick with nodes (566, 567, 583, 582, 207, 208, 202, 201) use material # 33; 
+add element # 228 type 8NodeBrick with nodes (565, 566, 582, 581, 206, 207, 201, 200) use material # 33; 
+add element # 229 type 8NodeBrick with nodes (564, 565, 581, 580, 205, 206, 200, 199) use material # 33; 
+add element # 230 type 8NodeBrick with nodes (124, 564, 580, 133, 26, 205, 199, 21) use material # 33; 
+add element # 231 type 8NodeBrick with nodes (589, 554, 123, 134, 217, 211, 31, 37) use material # 33; 
+add element # 232 type 8NodeBrick with nodes (588, 553, 554, 589, 218, 212, 211, 217) use material # 33; 
+add element # 233 type 8NodeBrick with nodes (587, 552, 553, 588, 219, 213, 212, 218) use material # 33; 
+add element # 234 type 8NodeBrick with nodes (586, 551, 552, 587, 220, 214, 213, 219) use material # 33; 
+add element # 235 type 8NodeBrick with nodes (585, 550, 551, 586, 221, 215, 214, 220) use material # 33; 
+add element # 236 type 8NodeBrick with nodes (132, 121, 550, 585, 38, 32, 215, 221) use material # 33; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#DRM3, MaterialNo:= 33}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#DRM4, MaterialNo:= 34}Starts
+//*************************************************************************************************************************
+
+add element # 237 type 8NodeBrick with nodes (75, 66, 68, 77, 21, 26, 25, 20) use material # 34; 
+add element # 238 type 8NodeBrick with nodes (77, 68, 427, 78, 20, 25, 292, 19) use material # 34; 
+add element # 239 type 8NodeBrick with nodes (68, 404, 426, 427, 25, 303, 293, 292) use material # 34; 
+add element # 240 type 8NodeBrick with nodes (404, 403, 425, 426, 303, 304, 294, 293) use material # 34; 
+add element # 241 type 8NodeBrick with nodes (403, 402, 424, 425, 304, 305, 295, 294) use material # 34; 
+add element # 242 type 8NodeBrick with nodes (402, 401, 423, 424, 305, 306, 296, 295) use material # 34; 
+add element # 243 type 8NodeBrick with nodes (401, 400, 422, 423, 306, 307, 297, 296) use material # 34; 
+add element # 244 type 8NodeBrick with nodes (400, 399, 421, 422, 307, 308, 298, 297) use material # 34; 
+add element # 245 type 8NodeBrick with nodes (399, 398, 420, 421, 308, 309, 299, 298) use material # 34; 
+add element # 246 type 8NodeBrick with nodes (398, 397, 419, 420, 309, 310, 300, 299) use material # 34; 
+add element # 247 type 8NodeBrick with nodes (397, 396, 418, 419, 310, 311, 301, 300) use material # 34; 
+add element # 248 type 8NodeBrick with nodes (396, 67, 417, 418, 311, 30, 302, 301) use material # 34; 
+add element # 249 type 8NodeBrick with nodes (67, 79, 80, 417, 30, 36, 35, 302) use material # 34; 
+add element # 250 type 8NodeBrick with nodes (67, 65, 76, 79, 30, 31, 37, 36) use material # 34; 
+add element # 251 type 8NodeBrick with nodes (126, 124, 133, 135, 25, 26, 21, 20) use material # 34; 
+add element # 252 type 8NodeBrick with nodes (600, 126, 135, 136, 292, 25, 20, 19) use material # 34; 
+add element # 253 type 8NodeBrick with nodes (599, 577, 126, 600, 293, 303, 25, 292) use material # 34; 
+add element # 254 type 8NodeBrick with nodes (598, 576, 577, 599, 294, 304, 303, 293) use material # 34; 
+add element # 255 type 8NodeBrick with nodes (597, 575, 576, 598, 295, 305, 304, 294) use material # 34; 
+add element # 256 type 8NodeBrick with nodes (596, 574, 575, 597, 296, 306, 305, 295) use material # 34; 
+add element # 257 type 8NodeBrick with nodes (595, 573, 574, 596, 297, 307, 306, 296) use material # 34; 
+add element # 258 type 8NodeBrick with nodes (594, 572, 573, 595, 298, 308, 307, 297) use material # 34; 
+add element # 259 type 8NodeBrick with nodes (593, 571, 572, 594, 299, 309, 308, 298) use material # 34; 
+add element # 260 type 8NodeBrick with nodes (592, 570, 571, 593, 300, 310, 309, 299) use material # 34; 
+add element # 261 type 8NodeBrick with nodes (591, 569, 570, 592, 301, 311, 310, 300) use material # 34; 
+add element # 262 type 8NodeBrick with nodes (590, 125, 569, 591, 302, 30, 311, 301) use material # 34; 
+add element # 263 type 8NodeBrick with nodes (138, 137, 125, 590, 35, 36, 30, 302) use material # 34; 
+add element # 264 type 8NodeBrick with nodes (134, 123, 125, 137, 37, 31, 30, 36) use material # 34; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#DRM4, MaterialNo:= 34}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping11, MaterialNo:= 31}Starts
+//*************************************************************************************************************************
+
+add element # 265 type 8NodeBrick with nodes (81, 69, 70, 82, 18, 24, 23, 17) use material # 31; 
+add element # 266 type 8NodeBrick with nodes (72, 71, 83, 84, 39, 40, 46, 45) use material # 31; 
+add element # 267 type 8NodeBrick with nodes (128, 127, 139, 140, 23, 24, 18, 17) use material # 31; 
+add element # 268 type 8NodeBrick with nodes (141, 129, 130, 142, 46, 40, 39, 45) use material # 31; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping11, MaterialNo:= 31}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping12, MaterialNo:= 32}Starts
+//*************************************************************************************************************************
+
+add element # 269 type 8NodeBrick with nodes (82, 70, 405, 428, 17, 23, 204, 198) use material # 32; 
+add element # 270 type 8NodeBrick with nodes (428, 405, 73, 85, 198, 204, 22, 16) use material # 32; 
+add element # 271 type 8NodeBrick with nodes (74, 406, 429, 86, 38, 222, 229, 44) use material # 32; 
+add element # 272 type 8NodeBrick with nodes (406, 72, 84, 429, 222, 39, 45, 229) use material # 32; 
+add element # 273 type 8NodeBrick with nodes (578, 128, 140, 601, 204, 23, 17, 198) use material # 32; 
+add element # 274 type 8NodeBrick with nodes (131, 578, 601, 143, 22, 204, 198, 16) use material # 32; 
+add element # 275 type 8NodeBrick with nodes (602, 579, 132, 144, 229, 222, 38, 44) use material # 32; 
+add element # 276 type 8NodeBrick with nodes (142, 130, 579, 602, 45, 39, 222, 229) use material # 32; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping12, MaterialNo:= 32}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping13, MaterialNo:= 33}Starts
+//*************************************************************************************************************************
+
+add element # 277 type 8NodeBrick with nodes (85, 73, 411, 434, 16, 22, 203, 197) use material # 33; 
+add element # 278 type 8NodeBrick with nodes (434, 411, 410, 433, 197, 203, 202, 196) use material # 33; 
+add element # 279 type 8NodeBrick with nodes (433, 410, 409, 432, 196, 202, 201, 195) use material # 33; 
+add element # 280 type 8NodeBrick with nodes (432, 409, 408, 431, 195, 201, 200, 194) use material # 33; 
+add element # 281 type 8NodeBrick with nodes (431, 408, 407, 430, 194, 200, 199, 193) use material # 33; 
+add element # 282 type 8NodeBrick with nodes (430, 407, 75, 87, 193, 199, 21, 15) use material # 33; 
+add element # 283 type 8NodeBrick with nodes (76, 416, 439, 88, 37, 217, 224, 43) use material # 33; 
+add element # 284 type 8NodeBrick with nodes (416, 415, 438, 439, 217, 218, 225, 224) use material # 33; 
+add element # 285 type 8NodeBrick with nodes (415, 414, 437, 438, 218, 219, 226, 225) use material # 33; 
+add element # 286 type 8NodeBrick with nodes (414, 413, 436, 437, 219, 220, 227, 226) use material # 33; 
+add element # 287 type 8NodeBrick with nodes (413, 412, 435, 436, 220, 221, 228, 227) use material # 33; 
+add element # 288 type 8NodeBrick with nodes (412, 74, 86, 435, 221, 38, 44, 228) use material # 33; 
+add element # 289 type 8NodeBrick with nodes (584, 131, 143, 607, 203, 22, 16, 197) use material # 33; 
+add element # 290 type 8NodeBrick with nodes (583, 584, 607, 606, 202, 203, 197, 196) use material # 33; 
+add element # 291 type 8NodeBrick with nodes (582, 583, 606, 605, 201, 202, 196, 195) use material # 33; 
+add element # 292 type 8NodeBrick with nodes (581, 582, 605, 604, 200, 201, 195, 194) use material # 33; 
+add element # 293 type 8NodeBrick with nodes (580, 581, 604, 603, 199, 200, 194, 193) use material # 33; 
+add element # 294 type 8NodeBrick with nodes (133, 580, 603, 145, 21, 199, 193, 15) use material # 33; 
+add element # 295 type 8NodeBrick with nodes (612, 589, 134, 146, 224, 217, 37, 43) use material # 33; 
+add element # 296 type 8NodeBrick with nodes (611, 588, 589, 612, 225, 218, 217, 224) use material # 33; 
+add element # 297 type 8NodeBrick with nodes (610, 587, 588, 611, 226, 219, 218, 225) use material # 33; 
+add element # 298 type 8NodeBrick with nodes (609, 586, 587, 610, 227, 220, 219, 226) use material # 33; 
+add element # 299 type 8NodeBrick with nodes (608, 585, 586, 609, 228, 221, 220, 227) use material # 33; 
+add element # 300 type 8NodeBrick with nodes (144, 132, 585, 608, 44, 38, 221, 228) use material # 33; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping13, MaterialNo:= 33}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping14, MaterialNo:= 34}Starts
+//*************************************************************************************************************************
+
+add element # 301 type 8NodeBrick with nodes (87, 75, 77, 440, 15, 21, 20, 192) use material # 34; 
+add element # 302 type 8NodeBrick with nodes (440, 77, 78, 89, 192, 20, 19, 14) use material # 34; 
+add element # 303 type 8NodeBrick with nodes (89, 78, 453, 90, 14, 19, 279, 13) use material # 34; 
+add element # 304 type 8NodeBrick with nodes (78, 427, 452, 453, 19, 292, 280, 279) use material # 34; 
+add element # 305 type 8NodeBrick with nodes (427, 426, 451, 452, 292, 293, 281, 280) use material # 34; 
+add element # 306 type 8NodeBrick with nodes (426, 425, 450, 451, 293, 294, 282, 281) use material # 34; 
+add element # 307 type 8NodeBrick with nodes (425, 424, 449, 450, 294, 295, 283, 282) use material # 34; 
+add element # 308 type 8NodeBrick with nodes (424, 423, 448, 449, 295, 296, 284, 283) use material # 34; 
+add element # 309 type 8NodeBrick with nodes (423, 422, 447, 448, 296, 297, 285, 284) use material # 34; 
+add element # 310 type 8NodeBrick with nodes (422, 421, 446, 447, 297, 298, 286, 285) use material # 34; 
+add element # 311 type 8NodeBrick with nodes (421, 420, 445, 446, 298, 299, 287, 286) use material # 34; 
+add element # 312 type 8NodeBrick with nodes (420, 419, 444, 445, 299, 300, 288, 287) use material # 34; 
+add element # 313 type 8NodeBrick with nodes (419, 418, 443, 444, 300, 301, 289, 288) use material # 34; 
+add element # 314 type 8NodeBrick with nodes (418, 417, 442, 443, 301, 302, 290, 289) use material # 34; 
+add element # 315 type 8NodeBrick with nodes (417, 80, 441, 442, 302, 35, 291, 290) use material # 34; 
+add element # 316 type 8NodeBrick with nodes (80, 91, 92, 441, 35, 42, 41, 291) use material # 34; 
+add element # 317 type 8NodeBrick with nodes (80, 79, 454, 91, 35, 36, 223, 42) use material # 34; 
+add element # 318 type 8NodeBrick with nodes (79, 76, 88, 454, 36, 37, 43, 223) use material # 34; 
+add element # 319 type 8NodeBrick with nodes (135, 133, 145, 613, 20, 21, 15, 192) use material # 34; 
+add element # 320 type 8NodeBrick with nodes (136, 135, 613, 147, 19, 20, 192, 14) use material # 34; 
+add element # 321 type 8NodeBrick with nodes (626, 136, 147, 148, 279, 19, 14, 13) use material # 34; 
+add element # 322 type 8NodeBrick with nodes (625, 600, 136, 626, 280, 292, 19, 279) use material # 34; 
+add element # 323 type 8NodeBrick with nodes (624, 599, 600, 625, 281, 293, 292, 280) use material # 34; 
+add element # 324 type 8NodeBrick with nodes (623, 598, 599, 624, 282, 294, 293, 281) use material # 34; 
+add element # 325 type 8NodeBrick with nodes (622, 597, 598, 623, 283, 295, 294, 282) use material # 34; 
+add element # 326 type 8NodeBrick with nodes (621, 596, 597, 622, 284, 296, 295, 283) use material # 34; 
+add element # 327 type 8NodeBrick with nodes (620, 595, 596, 621, 285, 297, 296, 284) use material # 34; 
+add element # 328 type 8NodeBrick with nodes (619, 594, 595, 620, 286, 298, 297, 285) use material # 34; 
+add element # 329 type 8NodeBrick with nodes (618, 593, 594, 619, 287, 299, 298, 286) use material # 34; 
+add element # 330 type 8NodeBrick with nodes (617, 592, 593, 618, 288, 300, 299, 287) use material # 34; 
+add element # 331 type 8NodeBrick with nodes (616, 591, 592, 617, 289, 301, 300, 288) use material # 34; 
+add element # 332 type 8NodeBrick with nodes (615, 590, 591, 616, 290, 302, 301, 289) use material # 34; 
+add element # 333 type 8NodeBrick with nodes (614, 138, 590, 615, 291, 35, 302, 290) use material # 34; 
+add element # 334 type 8NodeBrick with nodes (150, 149, 138, 614, 41, 42, 35, 291) use material # 34; 
+add element # 335 type 8NodeBrick with nodes (627, 137, 138, 149, 223, 36, 35, 42) use material # 34; 
+add element # 336 type 8NodeBrick with nodes (146, 134, 137, 627, 43, 37, 36, 223) use material # 34; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping14, MaterialNo:= 34}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping21, MaterialNo:= 31}Starts
+//*************************************************************************************************************************
+
+add element # 337 type 8NodeBrick with nodes (94, 81, 82, 93, 12, 18, 17, 11) use material # 31; 
+add element # 338 type 8NodeBrick with nodes (84, 83, 95, 96, 45, 46, 52, 51) use material # 31; 
+add element # 339 type 8NodeBrick with nodes (140, 139, 152, 151, 17, 18, 12, 11) use material # 31; 
+add element # 340 type 8NodeBrick with nodes (153, 141, 142, 154, 52, 46, 45, 51) use material # 31; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping21, MaterialNo:= 31}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping22, MaterialNo:= 32}Starts
+//*************************************************************************************************************************
+
+add element # 341 type 8NodeBrick with nodes (93, 82, 428, 455, 11, 17, 198, 191) use material # 32; 
+add element # 342 type 8NodeBrick with nodes (455, 428, 85, 97, 191, 198, 16, 10) use material # 32; 
+add element # 343 type 8NodeBrick with nodes (86, 429, 456, 98, 44, 229, 237, 50) use material # 32; 
+add element # 344 type 8NodeBrick with nodes (429, 84, 96, 456, 229, 45, 51, 237) use material # 32; 
+add element # 345 type 8NodeBrick with nodes (601, 140, 151, 628, 198, 17, 11, 191) use material # 32; 
+add element # 346 type 8NodeBrick with nodes (143, 601, 628, 155, 16, 198, 191, 10) use material # 32; 
+add element # 347 type 8NodeBrick with nodes (629, 602, 144, 156, 237, 229, 44, 50) use material # 32; 
+add element # 348 type 8NodeBrick with nodes (154, 142, 602, 629, 51, 45, 229, 237) use material # 32; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping22, MaterialNo:= 32}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping23, MaterialNo:= 33}Starts
+//*************************************************************************************************************************
+
+add element # 349 type 8NodeBrick with nodes (97, 85, 434, 461, 10, 16, 197, 190) use material # 33; 
+add element # 350 type 8NodeBrick with nodes (461, 434, 433, 460, 190, 197, 196, 189) use material # 33; 
+add element # 351 type 8NodeBrick with nodes (460, 433, 432, 459, 189, 196, 195, 188) use material # 33; 
+add element # 352 type 8NodeBrick with nodes (459, 432, 431, 458, 188, 195, 194, 187) use material # 33; 
+add element # 353 type 8NodeBrick with nodes (458, 431, 430, 457, 187, 194, 193, 186) use material # 33; 
+add element # 354 type 8NodeBrick with nodes (457, 430, 87, 99, 186, 193, 15, 9) use material # 33; 
+add element # 355 type 8NodeBrick with nodes (88, 439, 466, 100, 43, 224, 232, 49) use material # 33; 
+add element # 356 type 8NodeBrick with nodes (439, 438, 465, 466, 224, 225, 233, 232) use material # 33; 
+add element # 357 type 8NodeBrick with nodes (438, 437, 464, 465, 225, 226, 234, 233) use material # 33; 
+add element # 358 type 8NodeBrick with nodes (437, 436, 463, 464, 226, 227, 235, 234) use material # 33; 
+add element # 359 type 8NodeBrick with nodes (436, 435, 462, 463, 227, 228, 236, 235) use material # 33; 
+add element # 360 type 8NodeBrick with nodes (435, 86, 98, 462, 228, 44, 50, 236) use material # 33; 
+add element # 361 type 8NodeBrick with nodes (607, 143, 155, 634, 197, 16, 10, 190) use material # 33; 
+add element # 362 type 8NodeBrick with nodes (606, 607, 634, 633, 196, 197, 190, 189) use material # 33; 
+add element # 363 type 8NodeBrick with nodes (605, 606, 633, 632, 195, 196, 189, 188) use material # 33; 
+add element # 364 type 8NodeBrick with nodes (604, 605, 632, 631, 194, 195, 188, 187) use material # 33; 
+add element # 365 type 8NodeBrick with nodes (603, 604, 631, 630, 193, 194, 187, 186) use material # 33; 
+add element # 366 type 8NodeBrick with nodes (145, 603, 630, 157, 15, 193, 186, 9) use material # 33; 
+add element # 367 type 8NodeBrick with nodes (639, 612, 146, 158, 232, 224, 43, 49) use material # 33; 
+add element # 368 type 8NodeBrick with nodes (638, 611, 612, 639, 233, 225, 224, 232) use material # 33; 
+add element # 369 type 8NodeBrick with nodes (637, 610, 611, 638, 234, 226, 225, 233) use material # 33; 
+add element # 370 type 8NodeBrick with nodes (636, 609, 610, 637, 235, 227, 226, 234) use material # 33; 
+add element # 371 type 8NodeBrick with nodes (635, 608, 609, 636, 236, 228, 227, 235) use material # 33; 
+add element # 372 type 8NodeBrick with nodes (156, 144, 608, 635, 50, 44, 228, 236) use material # 33; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping23, MaterialNo:= 33}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping24, MaterialNo:= 34}Starts
+//*************************************************************************************************************************
+
+add element # 373 type 8NodeBrick with nodes (99, 87, 440, 468, 9, 15, 192, 185) use material # 34; 
+add element # 374 type 8NodeBrick with nodes (468, 440, 89, 467, 185, 192, 14, 184) use material # 34; 
+add element # 375 type 8NodeBrick with nodes (467, 89, 90, 101, 184, 14, 13, 8) use material # 34; 
+add element # 376 type 8NodeBrick with nodes (101, 90, 483, 102, 8, 13, 264, 7) use material # 34; 
+add element # 377 type 8NodeBrick with nodes (90, 453, 482, 483, 13, 279, 265, 264) use material # 34; 
+add element # 378 type 8NodeBrick with nodes (453, 452, 481, 482, 279, 280, 266, 265) use material # 34; 
+add element # 379 type 8NodeBrick with nodes (452, 451, 480, 481, 280, 281, 267, 266) use material # 34; 
+add element # 380 type 8NodeBrick with nodes (451, 450, 479, 480, 281, 282, 268, 267) use material # 34; 
+add element # 381 type 8NodeBrick with nodes (450, 449, 478, 479, 282, 283, 269, 268) use material # 34; 
+add element # 382 type 8NodeBrick with nodes (449, 448, 477, 478, 283, 284, 270, 269) use material # 34; 
+add element # 383 type 8NodeBrick with nodes (448, 447, 476, 477, 284, 285, 271, 270) use material # 34; 
+add element # 384 type 8NodeBrick with nodes (447, 446, 475, 476, 285, 286, 272, 271) use material # 34; 
+add element # 385 type 8NodeBrick with nodes (446, 445, 474, 475, 286, 287, 273, 272) use material # 34; 
+add element # 386 type 8NodeBrick with nodes (445, 444, 473, 474, 287, 288, 274, 273) use material # 34; 
+add element # 387 type 8NodeBrick with nodes (444, 443, 472, 473, 288, 289, 275, 274) use material # 34; 
+add element # 388 type 8NodeBrick with nodes (443, 442, 471, 472, 289, 290, 276, 275) use material # 34; 
+add element # 389 type 8NodeBrick with nodes (442, 441, 470, 471, 290, 291, 277, 276) use material # 34; 
+add element # 390 type 8NodeBrick with nodes (441, 92, 469, 470, 291, 41, 278, 277) use material # 34; 
+add element # 391 type 8NodeBrick with nodes (92, 103, 104, 469, 41, 48, 47, 278) use material # 34; 
+add element # 392 type 8NodeBrick with nodes (92, 91, 485, 103, 41, 42, 230, 48) use material # 34; 
+add element # 393 type 8NodeBrick with nodes (91, 454, 484, 485, 42, 223, 231, 230) use material # 34; 
+add element # 394 type 8NodeBrick with nodes (454, 88, 100, 484, 223, 43, 49, 231) use material # 34; 
+add element # 395 type 8NodeBrick with nodes (613, 145, 157, 641, 192, 15, 9, 185) use material # 34; 
+add element # 396 type 8NodeBrick with nodes (147, 613, 641, 640, 14, 192, 185, 184) use material # 34; 
+add element # 397 type 8NodeBrick with nodes (148, 147, 640, 159, 13, 14, 184, 8) use material # 34; 
+add element # 398 type 8NodeBrick with nodes (656, 148, 159, 160, 264, 13, 8, 7) use material # 34; 
+add element # 399 type 8NodeBrick with nodes (655, 626, 148, 656, 265, 279, 13, 264) use material # 34; 
+add element # 400 type 8NodeBrick with nodes (654, 625, 626, 655, 266, 280, 279, 265) use material # 34; 
+add element # 401 type 8NodeBrick with nodes (653, 624, 625, 654, 267, 281, 280, 266) use material # 34; 
+add element # 402 type 8NodeBrick with nodes (652, 623, 624, 653, 268, 282, 281, 267) use material # 34; 
+add element # 403 type 8NodeBrick with nodes (651, 622, 623, 652, 269, 283, 282, 268) use material # 34; 
+add element # 404 type 8NodeBrick with nodes (650, 621, 622, 651, 270, 284, 283, 269) use material # 34; 
+add element # 405 type 8NodeBrick with nodes (649, 620, 621, 650, 271, 285, 284, 270) use material # 34; 
+add element # 406 type 8NodeBrick with nodes (648, 619, 620, 649, 272, 286, 285, 271) use material # 34; 
+add element # 407 type 8NodeBrick with nodes (647, 618, 619, 648, 273, 287, 286, 272) use material # 34; 
+add element # 408 type 8NodeBrick with nodes (646, 617, 618, 647, 274, 288, 287, 273) use material # 34; 
+add element # 409 type 8NodeBrick with nodes (645, 616, 617, 646, 275, 289, 288, 274) use material # 34; 
+add element # 410 type 8NodeBrick with nodes (644, 615, 616, 645, 276, 290, 289, 275) use material # 34; 
+add element # 411 type 8NodeBrick with nodes (643, 614, 615, 644, 277, 291, 290, 276) use material # 34; 
+add element # 412 type 8NodeBrick with nodes (642, 150, 614, 643, 278, 41, 291, 277) use material # 34; 
+add element # 413 type 8NodeBrick with nodes (162, 161, 150, 642, 47, 48, 41, 278) use material # 34; 
+add element # 414 type 8NodeBrick with nodes (658, 149, 150, 161, 230, 42, 41, 48) use material # 34; 
+add element # 415 type 8NodeBrick with nodes (657, 627, 149, 658, 231, 223, 42, 230) use material # 34; 
+add element # 416 type 8NodeBrick with nodes (158, 146, 627, 657, 49, 43, 223, 231) use material # 34; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping24, MaterialNo:= 34}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping31, MaterialNo:= 31}Starts
+//*************************************************************************************************************************
+
+add element # 417 type 8NodeBrick with nodes (106, 94, 93, 105, 6, 12, 11, 5) use material # 31; 
+add element # 418 type 8NodeBrick with nodes (96, 95, 107, 108, 51, 52, 58, 57) use material # 31; 
+add element # 419 type 8NodeBrick with nodes (151, 152, 164, 163, 11, 12, 6, 5) use material # 31; 
+add element # 420 type 8NodeBrick with nodes (165, 153, 154, 166, 58, 52, 51, 57) use material # 31; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping31, MaterialNo:= 31}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping32, MaterialNo:= 32}Starts
+//*************************************************************************************************************************
+
+add element # 421 type 8NodeBrick with nodes (105, 93, 455, 486, 5, 11, 191, 183) use material # 32; 
+add element # 422 type 8NodeBrick with nodes (486, 455, 97, 109, 183, 191, 10, 4) use material # 32; 
+add element # 423 type 8NodeBrick with nodes (98, 456, 487, 110, 50, 237, 246, 56) use material # 32; 
+add element # 424 type 8NodeBrick with nodes (456, 96, 108, 487, 237, 51, 57, 246) use material # 32; 
+add element # 425 type 8NodeBrick with nodes (628, 151, 163, 659, 191, 11, 5, 183) use material # 32; 
+add element # 426 type 8NodeBrick with nodes (155, 628, 659, 167, 10, 191, 183, 4) use material # 32; 
+add element # 427 type 8NodeBrick with nodes (660, 629, 156, 168, 246, 237, 50, 56) use material # 32; 
+add element # 428 type 8NodeBrick with nodes (166, 154, 629, 660, 57, 51, 237, 246) use material # 32; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping32, MaterialNo:= 32}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping33, MaterialNo:= 33}Starts
+//*************************************************************************************************************************
+
+add element # 429 type 8NodeBrick with nodes (109, 97, 461, 492, 4, 10, 190, 182) use material # 33; 
+add element # 430 type 8NodeBrick with nodes (492, 461, 460, 491, 182, 190, 189, 181) use material # 33; 
+add element # 431 type 8NodeBrick with nodes (491, 460, 459, 490, 181, 189, 188, 180) use material # 33; 
+add element # 432 type 8NodeBrick with nodes (490, 459, 458, 489, 180, 188, 187, 179) use material # 33; 
+add element # 433 type 8NodeBrick with nodes (489, 458, 457, 488, 179, 187, 186, 178) use material # 33; 
+add element # 434 type 8NodeBrick with nodes (488, 457, 99, 111, 178, 186, 9, 3) use material # 33; 
+add element # 435 type 8NodeBrick with nodes (100, 466, 497, 112, 49, 232, 241, 55) use material # 33; 
+add element # 436 type 8NodeBrick with nodes (466, 465, 496, 497, 232, 233, 242, 241) use material # 33; 
+add element # 437 type 8NodeBrick with nodes (465, 464, 495, 496, 233, 234, 243, 242) use material # 33; 
+add element # 438 type 8NodeBrick with nodes (464, 463, 494, 495, 234, 235, 244, 243) use material # 33; 
+add element # 439 type 8NodeBrick with nodes (463, 462, 493, 494, 235, 236, 245, 244) use material # 33; 
+add element # 440 type 8NodeBrick with nodes (462, 98, 110, 493, 236, 50, 56, 245) use material # 33; 
+add element # 441 type 8NodeBrick with nodes (634, 155, 167, 665, 190, 10, 4, 182) use material # 33; 
+add element # 442 type 8NodeBrick with nodes (633, 634, 665, 664, 189, 190, 182, 181) use material # 33; 
+add element # 443 type 8NodeBrick with nodes (632, 633, 664, 663, 188, 189, 181, 180) use material # 33; 
+add element # 444 type 8NodeBrick with nodes (631, 632, 663, 662, 187, 188, 180, 179) use material # 33; 
+add element # 445 type 8NodeBrick with nodes (630, 631, 662, 661, 186, 187, 179, 178) use material # 33; 
+add element # 446 type 8NodeBrick with nodes (157, 630, 661, 169, 9, 186, 178, 3) use material # 33; 
+add element # 447 type 8NodeBrick with nodes (670, 639, 158, 170, 241, 232, 49, 55) use material # 33; 
+add element # 448 type 8NodeBrick with nodes (669, 638, 639, 670, 242, 233, 232, 241) use material # 33; 
+add element # 449 type 8NodeBrick with nodes (668, 637, 638, 669, 243, 234, 233, 242) use material # 33; 
+add element # 450 type 8NodeBrick with nodes (667, 636, 637, 668, 244, 235, 234, 243) use material # 33; 
+add element # 451 type 8NodeBrick with nodes (666, 635, 636, 667, 245, 236, 235, 244) use material # 33; 
+add element # 452 type 8NodeBrick with nodes (168, 156, 635, 666, 56, 50, 236, 245) use material # 33; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping33, MaterialNo:= 33}Ends
+//*************************************************************************************************************************
+
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping34, MaterialNo:= 34}Starts
+//*************************************************************************************************************************
+
+add element # 453 type 8NodeBrick with nodes (111, 99, 468, 500, 3, 9, 185, 177) use material # 34; 
+add element # 454 type 8NodeBrick with nodes (500, 468, 467, 499, 177, 185, 184, 176) use material # 34; 
+add element # 455 type 8NodeBrick with nodes (499, 467, 101, 498, 176, 184, 8, 175) use material # 34; 
+add element # 456 type 8NodeBrick with nodes (498, 101, 102, 113, 175, 8, 7, 2) use material # 34; 
+add element # 457 type 8NodeBrick with nodes (113, 102, 517, 114, 2, 7, 247, 1) use material # 34; 
+add element # 458 type 8NodeBrick with nodes (102, 483, 516, 517, 7, 264, 248, 247) use material # 34; 
+add element # 459 type 8NodeBrick with nodes (483, 482, 515, 516, 264, 265, 249, 248) use material # 34; 
+add element # 460 type 8NodeBrick with nodes (482, 481, 514, 515, 265, 266, 250, 249) use material # 34; 
+add element # 461 type 8NodeBrick with nodes (481, 480, 513, 514, 266, 267, 251, 250) use material # 34; 
+add element # 462 type 8NodeBrick with nodes (480, 479, 512, 513, 267, 268, 252, 251) use material # 34; 
+add element # 463 type 8NodeBrick with nodes (479, 478, 511, 512, 268, 269, 253, 252) use material # 34; 
+add element # 464 type 8NodeBrick with nodes (478, 477, 510, 511, 269, 270, 254, 253) use material # 34; 
+add element # 465 type 8NodeBrick with nodes (477, 476, 509, 510, 270, 271, 255, 254) use material # 34; 
+add element # 466 type 8NodeBrick with nodes (476, 475, 508, 509, 271, 272, 256, 255) use material # 34; 
+add element # 467 type 8NodeBrick with nodes (475, 474, 507, 508, 272, 273, 257, 256) use material # 34; 
+add element # 468 type 8NodeBrick with nodes (474, 473, 506, 507, 273, 274, 258, 257) use material # 34; 
+add element # 469 type 8NodeBrick with nodes (473, 472, 505, 506, 274, 275, 259, 258) use material # 34; 
+add element # 470 type 8NodeBrick with nodes (472, 471, 504, 505, 275, 276, 260, 259) use material # 34; 
+add element # 471 type 8NodeBrick with nodes (471, 470, 503, 504, 276, 277, 261, 260) use material # 34; 
+add element # 472 type 8NodeBrick with nodes (470, 469, 502, 503, 277, 278, 262, 261) use material # 34; 
+add element # 473 type 8NodeBrick with nodes (469, 104, 501, 502, 278, 47, 263, 262) use material # 34; 
+add element # 474 type 8NodeBrick with nodes (104, 115, 116, 501, 47, 54, 53, 263) use material # 34; 
+add element # 475 type 8NodeBrick with nodes (104, 103, 520, 115, 47, 48, 238, 54) use material # 34; 
+add element # 476 type 8NodeBrick with nodes (103, 485, 519, 520, 48, 230, 239, 238) use material # 34; 
+add element # 477 type 8NodeBrick with nodes (485, 484, 518, 519, 230, 231, 240, 239) use material # 34; 
+add element # 478 type 8NodeBrick with nodes (484, 100, 112, 518, 231, 49, 55, 240) use material # 34; 
+add element # 479 type 8NodeBrick with nodes (641, 157, 169, 673, 185, 9, 3, 177) use material # 34; 
+add element # 480 type 8NodeBrick with nodes (640, 641, 673, 672, 184, 185, 177, 176) use material # 34; 
+add element # 481 type 8NodeBrick with nodes (159, 640, 672, 671, 8, 184, 176, 175) use material # 34; 
+add element # 482 type 8NodeBrick with nodes (160, 159, 671, 171, 7, 8, 175, 2) use material # 34; 
+add element # 483 type 8NodeBrick with nodes (690, 160, 171, 172, 247, 7, 2, 1) use material # 34; 
+add element # 484 type 8NodeBrick with nodes (689, 656, 160, 690, 248, 264, 7, 247) use material # 34; 
+add element # 485 type 8NodeBrick with nodes (688, 655, 656, 689, 249, 265, 264, 248) use material # 34; 
+add element # 486 type 8NodeBrick with nodes (687, 654, 655, 688, 250, 266, 265, 249) use material # 34; 
+add element # 487 type 8NodeBrick with nodes (686, 653, 654, 687, 251, 267, 266, 250) use material # 34; 
+add element # 488 type 8NodeBrick with nodes (685, 652, 653, 686, 252, 268, 267, 251) use material # 34; 
+add element # 489 type 8NodeBrick with nodes (684, 651, 652, 685, 253, 269, 268, 252) use material # 34; 
+add element # 490 type 8NodeBrick with nodes (683, 650, 651, 684, 254, 270, 269, 253) use material # 34; 
+add element # 491 type 8NodeBrick with nodes (682, 649, 650, 683, 255, 271, 270, 254) use material # 34; 
+add element # 492 type 8NodeBrick with nodes (681, 648, 649, 682, 256, 272, 271, 255) use material # 34; 
+add element # 493 type 8NodeBrick with nodes (680, 647, 648, 681, 257, 273, 272, 256) use material # 34; 
+add element # 494 type 8NodeBrick with nodes (679, 646, 647, 680, 258, 274, 273, 257) use material # 34; 
+add element # 495 type 8NodeBrick with nodes (678, 645, 646, 679, 259, 275, 274, 258) use material # 34; 
+add element # 496 type 8NodeBrick with nodes (677, 644, 645, 678, 260, 276, 275, 259) use material # 34; 
+add element # 497 type 8NodeBrick with nodes (676, 643, 644, 677, 261, 277, 276, 260) use material # 34; 
+add element # 498 type 8NodeBrick with nodes (675, 642, 643, 676, 262, 278, 277, 261) use material # 34; 
+add element # 499 type 8NodeBrick with nodes (674, 162, 642, 675, 263, 47, 278, 262) use material # 34; 
+add element # 500 type 8NodeBrick with nodes (174, 173, 162, 674, 53, 54, 47, 263) use material # 34; 
+add element # 501 type 8NodeBrick with nodes (693, 161, 162, 173, 238, 48, 47, 54) use material # 34; 
+add element # 502 type 8NodeBrick with nodes (692, 658, 161, 693, 239, 230, 48, 238) use material # 34; 
+add element # 503 type 8NodeBrick with nodes (691, 657, 658, 692, 240, 231, 230, 239) use material # 34; 
+add element # 504 type 8NodeBrick with nodes (170, 158, 657, 691, 55, 49, 231, 240) use material # 34; 
+
+//*************************************************************************************************************************
+//							Add_8NodeBrick{Physical_Group#Damping34, MaterialNo:= 34}Ends
+//*************************************************************************************************************************
+

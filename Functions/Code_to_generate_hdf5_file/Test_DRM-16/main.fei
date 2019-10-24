@@ -1,0 +1,29 @@
+// My new model
+model name "Test_DRM_model_16";
+
+include "node.fei";
+
+// First soil layer material
+add material # 31 type linear_elastic_isotropic_3d mass_density = 2200.0*kg/m^3 elastic_modulus = 1162000.0 * kPa poisson_ratio = 0.462; 
+add material # 32 type linear_elastic_isotropic_3d mass_density = 2200.0*kg/m^3 elastic_modulus = 1162000.0 * kPa poisson_ratio = 0.462; 
+add material # 33 type linear_elastic_isotropic_3d mass_density = 2200.0*kg/m^3 elastic_modulus = 1162000.0 * kPa poisson_ratio = 0.462; 
+add material # 34 type linear_elastic_isotropic_3d mass_density = 2200.0*kg/m^3 elastic_modulus = 1162000.0 * kPa poisson_ratio = 0.462; 
+
+// Foundation material properties
+//// Define elements
+
+
+
+
+
+
+include "element.fei";
+include "Damping_parameters.fei"; 
+include "load.fei"; 
+
+
+
+
+
+
+include "load_frame.fei";
