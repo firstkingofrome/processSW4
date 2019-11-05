@@ -22,9 +22,7 @@
 #   
 
 """
-Evaluate all three planes instead of just the two planes that I am using
-
-
+I have changed this version so that it gets the adjacent planes (in addition to just the main plane!)
 """
 
 import sys
@@ -34,6 +32,7 @@ import datetime
 import pandas as pd
 import itertools 
 import scipy
+import os
 from scipy import integrate
 
 def dframeToDict(dFrame):
@@ -43,17 +42,17 @@ def dframeToDict(dFrame):
           
 #stuff to insert into main
 
-sw4essiout_filename = "Location15.cycle=00000.essi"
-drm_filename = "DRM_slice_model_162D.hdf5"
+sw4essiout_filename = "Location14.cycle=0000.essi"
+drm_filename = "DRM_slice_model_142D.hdf5"
 parameterFile = "get2dSlice.csv"
 #load up the parameter file
 parameterFile = dframeToDict(pd.read_csv(parameterFile))
 #check that the azimuth is valid
 assert (int(parameterFile['azimuth'])==90 or int(parameterFile['azimuth'])==0)
-if(parameterFile['azimuth']==90):
+if(int(parameterFile['azimuth'])==90):
     #I am using the sw4 x plane direction |
     directivity = 'sw4_x'
-else:
+elif(int(parameterFile['azimuth'])==0):
     #I am using the sw4 y plane direction --
     directivity = 'sw4_y'
 
@@ -75,31 +74,23 @@ print('Shape of HDF5 data: ', sw4essiout['vel_0 ijk layout'].shape)
 nt = sw4essiout['vel_0 ijk layout'].shape[0]
 time = np.linspace(t0, t1, npts)
 
-if(directivity == 'sw4_x'):
- #load the input data
- plane = int(int(parameterFile['y0'])/h)
-else:
- #load the input data
- plane = int(int(parameterFile['x0'])/h)
+#load the input data
+plane = int(int(parameterFile['horizontal_plane'])/h)
 
 if(directivity == 'sw4_x'):
- #load the input data
     #n_horrizontal = sw4essiout['vel_0 ijk layout'].shape[1]
     #take all timesteps, and the plane as specified in the input file
-    #data_horrizontal etc. is all in ESSI COORDINATES!
-    data_horrizontal = sw4essiout['vel_0 ijk layout'][:,:,plane,:]
+    #get planes behind and infront of specified plane!
+    data_horrizontal = sw4essiout['vel_0 ijk layout'][:,:,plane-2:plane+1,:]
     #set out of plane data to 0
-    data_out_of_plane = np.zeros(shape=sw4essiout['vel_1 ijk layout'][:,:,plane,:].shape)
-    data_vertical = -1.0*sw4essiout['vel_2 ijk layout'][:,:,plane,:]
+    data_vertical = -1.0*sw4essiout['vel_2 ijk layout'][:,:,plane-2:plane+2,:]
+
 else:
-
     #n_horrizontal = sw4essiout['vel_1 ijk layout'].shape[0]
-    data_horrizontal = sw4essiout['vel_1 ijk layout'][:,plane,:,:]
+    data_horrizontal = sw4essiout['vel_1 ijk layout'][:,plane-2:plane+1,:,:]
     #set out of plane data to 0
-    data_out_of_plane = np.zeros(shape=sw4essiout['vel_0 ijk layout'][:,plane,:,:].shape)
-    data_vertical = -1.0*sw4essiout['vel_2 ijk layout'][:,plane,:,:]
+    data_vertical = -1.0*sw4essiout['vel_2 ijk layout'][:,plane-2:plane+1,:,:]
 
-"""
 #check the spacing requested and the input spacing, if they disagree interpolate the inpute data!
 if(int(parameterFile["target_h"]) != int(sw4essiout["ESSI xyz grid spacing"][0])):
     #interpolate with the specified algorithm
@@ -107,7 +98,7 @@ if(int(parameterFile["target_h"]) != int(sw4essiout["ESSI xyz grid spacing"][0])
      + " to " + str(parameterFile["target_h"]) )
     
     #
-"""
+
 #load up the geometery file
 drm_file = h5py.File(drm_filename,"a")
 coordinates = drm_file['Coordinates']
@@ -127,11 +118,11 @@ else:
     Displacements_dset = drm_file.create_dataset("Displacements", (n_coord*3, nt))
 
 #integrate all velocity data to form displacement data set
-data_horrizontal_disp = scipy.integrate.cumtrapz(y=data_horrizontal[:,:,:],dx=dt,initial=0,axis=0)
-data_vertical_disp = scipy.integrate.cumtrapz(y=data_vertical[:,:,:],dx=dt,initial=0,axis=0)
+data_horrizontal_disp = scipy.integrate.cumtrapz(y=data_horrizontal[:,:,:,:],dx=dt,initial=0,axis=0)
+data_vertical_disp = scipy.integrate.cumtrapz(y=data_vertical[:,:,:,:],dx=dt,initial=0,axis=0)
 #differentiate all displacement data to form acceleration
-data_horrizontal_acc = np.gradient(data_horrizontal[:,:,:],dt,axis=0)
-data_vertical_acc = np.gradient(data_vertical[:,:,:],dt,axis=0)
+data_horrizontal_acc = np.gradient(data_horrizontal[:,:,:,:],dt,axis=0)
+data_vertical_acc = np.gradient(data_vertical[:,:,:,:],dt,axis=0)
 
 """
 Check that the integration and differentiation look reasonalbe for a point
@@ -140,11 +131,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 fig, ax = plt.subplots()
-ax.plot(time, data_horrizontal_disp[:,0,0])
+ax.plot(time, data_horrizontal_disp[:,0,0,0])
 fig.savefig("disp_plot_test.png")
 
 fig, ax = plt.subplots()
-ax.plot(time, data_horrizontal_acc[:,0,0])
+ax.plot(time, data_horrizontal_acc[:,0,0,0])
 fig.savefig("acc_plot_test.png")
 """
 #save each coordinate to the container
@@ -156,38 +147,45 @@ for coordinate in range(len(coordinateList)):
     if(directivity == 'sw4_x'):
         #fix the values if I have a negetive in my expression
         #checkValues = lambda x:0 if x != 0 else x         
-        loc_i,loc_j,loc_k = int(coordinateList[coordinate][0][0]/h)+int(int(parameterFile['x0'])/h),int(coordinateList[coordinate][0][1]/h),int((int(parameterFile['essi_z_end'])-coordinateList[coordinate][0][2])/h)
+        loc_i,loc_j,loc_k = int(coordinateList[coordinate][0][0]/h),int(coordinateList[coordinate][0][1]/h),int((int(parameterFile['essi_z_end'])-coordinateList[coordinate][0][2])/h)
         #z stop if z is ever negetive!
         #assert loc_k >= 0 
         #note that j is unuesd !!
-        Accelerations_dset[coordinate*3,:] =data_horrizontal_acc[:,loc_i,loc_k] 
+        #check my coordinate value  
+        #loc j is out of plane
+        plane = 1 + loc_j      
+        Accelerations_dset[coordinate*3,:] =data_horrizontal_acc[:,loc_i,plane,loc_k] 
         Accelerations_dset[coordinate*3+1,:] = 0.0
-        Accelerations_dset[coordinate*3+2,:] = data_vertical_acc[:,loc_i,loc_k]  
+        Accelerations_dset[coordinate*3+2,:] = data_vertical_acc[:,loc_i,plane,loc_k]  
         
-        Displacements_dset[coordinate*3,:] = data_horrizontal_disp[:,loc_i,loc_k] 
+        Displacements_dset[coordinate*3,:] = data_horrizontal_disp[:,loc_i,plane,loc_k] 
         Displacements_dset[coordinate*3+1,:] = 0.0
-        Displacements_dset[coordinate*3+2,:] = data_vertical_disp[:,loc_i,loc_k] 
+        Displacements_dset[coordinate*3+2,:] = data_vertical_disp[:,loc_i,plane,loc_k] 
         print("Coordinate pair " + str(coordinateList[coordinate][0]) + " computed at " + str((loc_i,loc_k)) + "assinged to " + str(coordinate))
     
     else:
         #note that i is unuesd !!
         #checkValues = lambda x:0 if x != 0 else x         
-        loc_j,loc_i,loc_k = int(coordinateList[coordinate][0][0]/h)+int(int(parameterFile['y0'])/h),int(coordinateList[coordinate][0][1]/h),int((int(parameterFile['essi_z_end'])-coordinateList[coordinate][0][2])/h)
+        loc_j,loc_i,loc_k = int(coordinateList[coordinate][0][0]/h),int(coordinateList[coordinate][0][1]/h),int((int(parameterFile['essi_z_end'])-coordinateList[coordinate][0][2])/h)
         #z stop if z is ever negetive!
         #assert loc_k >= 0
-        Accelerations_dset[coordinate*3,:] = data_horrizontal_acc[:,loc_j,loc_k]  
+        #get the correct plane based on the location coordinate
+        #note that for this orientation loc_i is out of plane, for the other orientation
+        #loc i is out of plane
+        plane = 1 + loc_i
+        Accelerations_dset[coordinate*3,:] = data_horrizontal_acc[:,plane,loc_j,loc_k]  
         Accelerations_dset[coordinate*3+1,:] = 0.0
-        Accelerations_dset[coordinate*3+2,:] = data_vertical_acc[:,loc_j,loc_k] 
+        Accelerations_dset[coordinate*3+2,:] = data_vertical_acc[:,plane,loc_j,loc_k] 
         
-        Displacements_dset[coordinate*3,:] = data_horrizontal_disp[:,loc_j,loc_k]  
+        Displacements_dset[coordinate*3,:] = data_horrizontal_disp[:,plane,loc_j,loc_k]  
         Displacements_dset[coordinate*3+1,:] = 0.0
-        Displacements_dset[coordinate*3+2,:] = data_vertical_disp[:,loc_j,loc_k] 
+        Displacements_dset[coordinate*3+2,:] = data_vertical_disp[:,plane,loc_j,loc_k] 
         print("Coordinate pair " + str(coordinateList[coordinate][0]) + " computed at " + str((loc_j,loc_k)) + "assinged to " + str(coordinate))
 
         
 #close the container
-sw4essiout.close()
-drm_file.close()
+#sw4essiout.close()
+#drm_file.close()
 
 
 """
